@@ -1,5 +1,8 @@
 <!DOCTYPE html> <!-- Используется html 5 версии -->
+<<<<<<< HEAD
 {% load static %} <!-- Подключение файлов статики -->
+=======
+>>>>>>> bd5d3c6eaee4b5927049c3e8dad3629b24cadc28
 <html lang="ru"> <!-- Язык сайта - русский -->
   <head>    
     <meta charset="utf-8"> <!-- Кодировка сайта -->
@@ -13,10 +16,18 @@
     <meta name="msapplication-TileColor" content="#000">
     <meta name="theme-color" content="#ffffff">
     <!-- Подключен файл со стандартными стилями бустрап -->
+<<<<<<< HEAD
     <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
     <title>
       {% block title %} {% endblock %}
     </title>
+=======
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>
+      {% block title %} {% endblock %}
+    </title>
+    
+>>>>>>> bd5d3c6eaee4b5927049c3e8dad3629b24cadc28
   </head>
   <body>
     <header>
@@ -24,7 +35,11 @@
     </header>
     <main>
       {% block content %}
+<<<<<<< HEAD
       Контента нет (
+=======
+      Контента нет :(
+>>>>>>> bd5d3c6eaee4b5927049c3e8dad3629b24cadc28
       {% endblock %}
     </main>
     <!-- Использованы классы бустрапа: -->
